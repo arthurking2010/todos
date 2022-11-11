@@ -46,10 +46,10 @@ def df_empty_stored(tmp_dir, df_empty):
 def new_row():
     return {
         "created": datetime.now().strftime("%Y-%m-%d %H-%M-%S"),
-        "task": "cocinar",
-        "summary": "Cocinar algo rico",
+        "task": "comprar",
+        "summary": "Comprar viveres para la casa",
         "status": "todo",
-        "owner": "Andre",
+        "owner": "Arturo",
     }
 
 
